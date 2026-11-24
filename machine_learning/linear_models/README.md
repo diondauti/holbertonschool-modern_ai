@@ -28,6 +28,6 @@ regression and support vector machines.
 | `1-regression_evaluation_metrics.py` | Compute MSE, RMSE, MAE and R² for a regression model's predictions  |
 | `2-ridge_regression.py`              | Create a Ridge regression model, whose L2 penalty resists collinearity |
 | `3-Lasso_regression.py`              | Create a Lasso regression model, whose L1 penalty selects features  |
-| `4-shap.py`                          | Explain a model's predictions with SHAP values                      |
+| `4-shap.py`                          | Build a SHAP explainer and compute SHAP values for a trained model  |
 | `5-logisitc_regression.py`           | Create a logistic regression model for classification               |
 | `6-svm.py`                           | Create a support vector machine model                               |
