@@ -9,6 +9,10 @@ Projects for the Holberton School Modern AI curriculum.
     exploring, cleaning, and visualizing the Telco Customer Churn dataset
     with `pandas`, `matplotlib`, and `seaborn`
   - [Web Scraping](data_analysis/web_scraping/)
+- [Machine Learning](machine_learning/)
+  - [Linear Models](machine_learning/linear_models/) —
+    linear and logistic regression, Ridge and Lasso regularization,
+    SHAP explanations, and support vector machines with `scikit-learn`
 
 ## Requirements
 
