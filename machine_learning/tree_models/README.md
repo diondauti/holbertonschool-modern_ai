@@ -26,6 +26,7 @@ single hyperparameter can be read straight off the results.
 | `1-train.py`                | `train_tree(clf, X, y)`                                                  | Fit a tree-based classifier in place on the given features and labels |
 | `2-draw.py`                 | `draw(clf, feature_names, class_names)`                                  | Print the decision rules of a trained tree as indented text           |
 | `3-generate_predictions.py` | `generate_predictions(clf, X)`                                           | Predict the class label of each sample with a trained classifier      |
+| `4-evaluate.py`             | `evaluate(true_labels, predicted_labels, class_names)`                   | Build a per-class precision, recall and F1 classification report      |
 
 ## Usage
 
