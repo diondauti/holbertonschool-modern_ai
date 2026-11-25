@@ -28,6 +28,7 @@ single hyperparameter can be read straight off the results.
 | `3-generate_predictions.py` | `generate_predictions(clf, X)`                                           | Predict the class label of each sample with a trained classifier      |
 | `4-evaluate.py`             | `evaluate(true_labels, predicted_labels, class_names)`                   | Build a per-class precision, recall and F1 classification report      |
 | `5-pre_pruning.py`          | `prepruning(X, y, clf)`                                                  | Grid-search the best pre-pruning hyperparameters for a decision tree  |
+| `6-pruning_path.py`         | `get_pruning_path(clf, X, y)`                                            | Retrieve the cost-complexity pruning path: alphas and leaf impurities |
 
 ## Usage
 
