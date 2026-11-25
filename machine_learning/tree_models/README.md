@@ -20,9 +20,10 @@ single hyperparameter can be read straight off the results.
 
 ## Tasks
 
-| File        | Function                                                              | Description                                           |
-| ----------- | --------------------------------------------------------------------- | ----------------------------------------------------- |
-| `0-build.py`| `build_decision_tree(min_samples_leaf, min_samples_split, random_state)` | Decision tree classifier scored by Gini impurity, grown to full depth |
+| File         | Function                                                                 | Description                                                           |
+| ------------ | ------------------------------------------------------------------------ | --------------------------------------------------------------------- |
+| `0-build.py` | `build_decision_tree(min_samples_leaf, min_samples_split, random_state)` | Decision tree classifier scored by Gini impurity, grown to full depth |
+| `1-train.py` | `train_tree(clf, X, y)`                                                  | Fit a tree-based classifier in place on the given features and labels |
 
 ## Usage
 
