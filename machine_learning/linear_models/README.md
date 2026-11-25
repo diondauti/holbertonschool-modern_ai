@@ -29,5 +29,5 @@ regression and support vector machines.
 | `2-ridge_regression.py`              | Create a Ridge regression model, whose L2 penalty resists collinearity |
 | `3-Lasso_regression.py`              | Create a Lasso regression model, whose L1 penalty selects features  |
 | `4-shap.py`                          | Build a SHAP explainer and compute SHAP values for a trained model  |
-| `5-logisitc_regression.py`           | Create a logistic regression model for classification               |
+| `5-logisitc_regression.py`           | Create a logistic regression model for binary classification        |
 | `6-svm.py`                           | Create a support vector machine model                               |
