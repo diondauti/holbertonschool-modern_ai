@@ -31,6 +31,7 @@ single hyperparameter can be read straight off the results.
 | `6-pruning_path.py`         | `get_pruning_path(clf, X, y)`                                                                                               | Retrieve the cost-complexity pruning path: alphas and leaf impurities |
 | `7-prune_decision_tree.py`  | `prune_and_evaluate_trees(X_train, y_train, X_test, y_test, ccp_alphas, random_state, min_samples_leaf, min_samples_split)` | Train one tree per pruning alpha and score each on train and test     |
 | `8-best_ccp_alpha.py`       | `get_best_alpha(clfs, train_scores, test_scores, ccp_alphas)`                                                               | Pick the pruning alpha with the best test accuracy and generalization |
+| `9-random_forest.py`        | `random_forest(n_estimators, random_state)`                                                                                 | Random forest classifier: many trees on bootstrap samples, voting     |
 
 ## Usage
 
