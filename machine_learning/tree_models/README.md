@@ -12,7 +12,7 @@ single hyperparameter can be read straight off the results.
 ## Requirements
 
 - Ubuntu 20.04 LTS, Python 3.11
-- `numpy`, `scikit-learn`, `matplotlib`
+- `numpy`, `scikit-learn`, `matplotlib`, `xgboost`, `lightgbm`
 - Code follows `pycodestyle` 2.11.1
 - All files are executable and start with `#!/usr/bin/env python3`
 - All modules and functions are documented
@@ -33,6 +33,7 @@ single hyperparameter can be read straight off the results.
 | `8-best_ccp_alpha.py`       | `get_best_alpha(clfs, train_scores, test_scores, ccp_alphas)`                                                               | Pick the pruning alpha with the best test accuracy and generalization    |
 | `9-random_forest.py`        | `random_forest(n_estimators, random_state)`                                                                                 | Random forest classifier: many trees on bootstrap samples, voting        |
 | `10-feature_importance.py`  | `feature_importance(rf)`                                                                                                    | Feature importance scores of a trained forest, with an ascending ranking |
+| `11-boosting.py`            | `compare_boosting_classifiers(name, n_estimators, random_state)`                                                            | Boosting classifier from AdaBoost, GradientBoosting, XGBoost or LightGBM |
 
 ## Usage
 
